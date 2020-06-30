@@ -3,7 +3,7 @@ const Schema = mongoose.Schema;
 const uniqueValidator = require("mongoose-unique-validator");
 
 const locationSchema = new Schema({
-  langitude: {
+  latitude: {
     type: Number,
     default: 0,
     required: true,
