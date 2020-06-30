@@ -5,12 +5,10 @@ const uniqueValidator = require("mongoose-unique-validator");
 const locationSchema = new Schema({
   latitude: {
     type: Number,
-    default: 0,
     required: true,
   },
   longitude: {
     type: Number,
-    default: 0,
     required: true,
   },
 });
