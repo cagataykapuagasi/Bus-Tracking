@@ -3,7 +3,7 @@ const { Bus } = require("../db/db");
 
 router.get("/bus", getBuses);
 router.post("/bus/save", saveBus);
-router.delete("/bus/update", updateBusLocation);
+router.post("/bus/update", updateBusLocation);
 router.delete("/bus", deleteBus);
 
 async function saveBus(req, res, next) {
